@@ -1,0 +1,221 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h6 {
+  color: rgb(22, 22, 165);
+}
+
+#left {
+  background-color: rgb(22, 22, 165);
+  color: white;
+}
+#background2 {
+  background-color: #e6e6e6;
+}
+.title-name-position {
+  position: absolute;
+}
+
+.img-main {
+  height: 12rem;
+}
+
+.job-text {
+  font-size: 1.5rem;
+}
+.title {
+  margin-top: -25px;
+  padding: 5px;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: black;
+  box-shadow: 3px 3px 1px yellow;
+}
+.title-right {
+  width: 50%;
+  background-color: rgb(22, 22, 165);
+  color: white;
+}
+
+#personal-info {
+  margin-top: 250px;
+}
+
+#personal-info,
+#career,
+#skill,
+#hobby {
+  margin-bottom: 50px;
+  padding: 0 20px;
+  border-left: 5px solid rgb(255, 255, 255);
+}
+
+#hobby {
+  margin-top: 100px;
+}
+#personal-info::before,
+#career::before,
+#skill::before,
+#hobby::before {
+  content: "";
+  position: relative;
+  top: 10px;
+  left: -32px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 20px solid rgb(255, 255, 255);
+}
+
+#personal-info ul {
+  padding-top: 20px;
+  list-style: none;
+  line-height: 200%;
+}
+
+#career p {
+  line-height: 200%;
+}
+
+#skill span {
+  display: block;
+  margin-bottom: -7px;
+}
+
+.skill-lever-50 {
+  margin-bottom: -50px;
+  position: relative;
+  left: 46%;
+  top: -55px;
+  font-style: italic;
+  font-size: small;
+}
+.skill-lever-60 {
+  left: 55%;
+}
+
+.skill-hr-white {
+  border: none;
+  float: left;
+  margin: 10px 0px 20px 0px;
+  width: 10%;
+  height: 10px;
+  background-color: white;
+}
+.skill-hr-black {
+  border: none;
+  float: left;
+  margin: 10px 0px 20px 0px;
+  width: 10%;
+  height: 10px;
+  background-color: black;
+}
+.skill-hr-clear {
+  clear: both;
+}
+
+#education {
+  margin-top: 275px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+.education-box {
+  border-right: 1px solid black;
+}
+
+.education-months {
+  float: right;
+  padding: 1px 10px;
+  color: white;
+  font-style: italic;
+  font-size: small;
+  background-color: rgb(22, 22, 165);
+  border-radius: 5px;
+}
+.education-title {
+  float: left;
+}
+.education-clear {
+  padding-left: 2rem;
+  margin-top: 2rem;
+  clear: both;
+}
+
+#experience {
+  padding-top: 5rem;
+  padding-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+
+#projects h5 {
+  padding: 5px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+  left: 35%;
+  background-color: rgb(22, 22, 165);
+  color: white;
+}
+.projects-h5 {
+  margin-top: 3rem;
+  border: 1px solid black;
+}
+
+#footer {
+  margin: 0 -12px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer a {
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.footer-zalo,
+.footer-phone,
+.footer-gmail {
+  width: 100px;
+  padding-top: 20px;
+}
+
+.footer-gmail {
+  padding-left: 20px;
+}
+
+/* nav*/
+@media screen and (min-width: 992px) {
+  .title-name {
+    position: relative;
+    justify-items: center;
+    width: 800px;
+    top: 30px;
+    left: 13%;
+    color: white;
+  }
+
+  .name-text {
+    text-align: center;
+    font-size: 4rem;
+    background-color: rgb(19, 104, 8);
+  }
+
+  .hobby-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 130%;
+    text-align: center;
+    padding-top: 15px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+}

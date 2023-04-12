@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+  .title-name {
+    position: relative;
+    width: 350px;
+    top: 30px;
+    left: 5%;
+    color: white;
+  }
+  .name-text {
+    margin-bottom: -9rem;
+    padding-top: 20px;
+    height: 0rem;
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: transparent;
+  }
+
+  .img-main {
+    height: 7rem;
+  }
+
+  #education {
+    margin-top: 70px;
+    margin-bottom: -50px;
+    border-bottom: none;
+  }
+  .title-right {
+    width: 100%;
+  }
+  .education-box {
+    border-right: none;
+  }
+
+  #personal-info,
+  #career,
+  #skill,
+  #hobby {
+    padding-top: 20px;
+    border-left: none;
+  }
+
+  #hobby {
+    margin-bottom: 10px;
+  }
+
+  #personal-info::before,
+  #career::before,
+  #skill::before,
+  #hobby::before {
+    content: none;
+    display: none;
+  }
+
+  #experience {
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
+}

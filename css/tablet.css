@@ -1,0 +1,35 @@
+@media screen and (max-width: 992px) {
+  .title-name {
+    position: relative;
+    width: 550px;
+    top: 30px;
+    left: 13%;
+    color: white;
+  }
+  .name-text {
+    padding-top: 20px;
+    height: 10rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(19, 104, 8);
+  }
+
+  #personal-info ul {
+    margin-left: -20px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .hobby-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 100%;
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+}
